@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'shared/routes.dart';
 import 'styles/theme.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
-final GlobalKey<ScaffoldMessengerState> snackbarKey =
-    GlobalKey<ScaffoldMessengerState>();
+final GlobalKey<ScaffoldMessengerState> snackbarKey = GlobalKey<ScaffoldMessengerState>();
 
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});
@@ -31,6 +30,7 @@ class MyApp extends ConsumerWidget {
         child: child!,
       ),
       theme: AppTheme.defaultTheme,
+      debugShowCheckedModeBanner: false,
     );
   }
 }

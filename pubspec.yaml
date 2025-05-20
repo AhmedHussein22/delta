@@ -43,7 +43,7 @@ dependencies:
   intl: ^0.19.0
   permission_handler: ^11.3.1
   firebase_core: ^3.3.0
-  firebase_messaging: ^15.0.4
+  firebase_messaging: ^15.2.5
   google_api_availability: ^5.0.0
   infinite_scroll_pagination: ^4.0.0
   geolocator: ^12.0.0
@@ -58,7 +58,7 @@ dependencies:
   video_thumbnail: ^0.5.3
   path_provider: ^2.1.4
   cached_network_image: ^3.4.0
-  sentry_flutter: ^8.7.0
+  sentry_flutter: ^8.14.2
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
