@@ -4,6 +4,13 @@
 <dict>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires access to your photo library to allow you to select images for uploading or sharing content.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>This app requires access to your location to provide location-based services or improve user experience.</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app requires access to your location to provide location-based services or improve user experience.</string>
+
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
